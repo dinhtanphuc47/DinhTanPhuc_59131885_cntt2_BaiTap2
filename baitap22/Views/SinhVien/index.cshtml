@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+<h2>THÔNG TIN SINH VIÊN ĐÃ ĐĂNG KÝ</h2>
+<strong>Mã số sinh viên: </strong> @ViewBag.ID
+<br />
+<strong>Họ tên: </strong>@ViewBag.Name
+<br />
+<strong>Điểm: </strong>@ViewBag.Marks<div>
+    @Html.ActionLink("Quay lại", "Register2")
+</div>
+
